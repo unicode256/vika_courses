@@ -6,10 +6,6 @@ body {
 
 }
 
-/* .header *, .footer * {
-	border: 1px solid black;
-} */
-
 .header{
 	min-width: 1110px;
 	margin: 0 auto;
@@ -205,4 +201,20 @@ a.active {
 
 .footer .copyright span {
 	color: #000;
+}
+
+.content_about, .heading {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+
+.content_about {
+	
+}
+
+.content_about .heading {
+	/* height: 400px; */
+	background: url("../image/shutterstock_415747804.png") no-repeat;
+	background-position: top right;
 }
