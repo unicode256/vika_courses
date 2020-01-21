@@ -349,3 +349,88 @@ a.active {
 	height: 10px;
 	background-color: rgb(232, 232, 232);
 }
+
+.main_content .level_line .line {
+	height: 2px;
+	margin-top: 4px;
+	margin-left: 3px;
+	box-sizing: border-box;
+	background-color: #a1a1a1;
+	float: left;
+}
+
+.main_content .level_line .line.l1 {
+	width: 470px;
+}
+
+.main_content .level_line .line.l2 {
+	width: 495px;
+}
+
+.main_content .level_line .line.l3 {
+	width: 258px;
+}
+
+.main_content .level_line .line.l4 {
+	width: 440px;
+}
+
+.main_content .level_line .point {
+	margin-top: -5px;
+}
+
+.main_content .level_line .line.l1 .point {
+	margin-left: 470px;
+	margin-top: -5px;
+}
+
+.main_content .level_line .line.l2 .point {
+	margin-left: 495px;
+	margin-top: -5px;
+}
+
+.main_content .level_line .line.l3 .point {
+	margin-left: 258px;
+	margin-top: -5px;
+}
+
+.main_content .level_line .line.l4 .point {
+	margin-left: 440px;
+	margin-top: -5px;
+}
+
+.main_content .level_line span img {
+	margin: 0;
+}
+
+.main_content .level_line .tooltip {
+	font-family: 'Lato';
+	width: 40px;
+	/* height: 21px; */
+	/* border: 1px solid black; */
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	bottom: 55px;
+	left: 470px
+}
+
+.main_content .level_line .tooltip .value {
+	/* border: 1px solid black; */
+	width: 40px;
+	/* height: 21px; */
+}
+
+.main_content .level_line .tooltip .value span {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 3px 9px 3px 9px;
+}
+
+.main_content .level_line .tooltip .tail {
+	height: 8px;
+	/* border: 1px solid black; */
+	background: url("../image/Rectangle_49.png") bottom left no-repeat;
+}
