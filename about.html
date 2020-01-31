@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/119056277a.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -30,10 +31,27 @@
 
 <!--body-->
 
+<div class="menu">
+	<div class="menu-btn">
+		<div class="l1"></div>
+		<div class="l2"></div>
+		<div class="l3"></div>
+	</div>
+    <nav class="menu-list">
+      <a href="#">home</a>
+      <a class="active" href="#">about</a>
+      <a href="#">portfolio</a>
+	  <a href="#">blog</a>
+	  <a href="#">contact</a>
+    </nav>
+</div>
+
 <div class="content_about">
     <div class="heading">
-		<h1>about the agency</h1>
-		<p>welcome to lian</p>
+		<div class="heading_text">
+			<h1>about the agency</h1>
+			<p>welcome to lian</p>
+		</div>
 	</div>
 	<div class="main_content">
 		<div class="story_section">
@@ -142,3 +160,9 @@
 </body>
 
 </html>
+<script>
+$('.menu-btn').on('click', function(e) {
+  	e.preventDefault();
+  	$('.menu').toggleClass('menu_active');
+});
+</script>
