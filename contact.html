@@ -13,27 +13,44 @@
 
 <body>
 	<!--logo-->
-	<header style="width: 100%">
+	<header>
 		<div class="header">
 			<img src="image/logo.png" class="logo" >
-			<div class="categories" >
+			<div class="categories">
 				<img src="image/highlight.jpg" class="img">
-				<a href=""> home </a> 
-				<a href=""> about </a>
-				<a href=""> portfolio </a>
-				<a href=""> blog </a>
-				<a class="active" href=""> contact </a> 
+				<a class="active" href="">home</a> 
+				<a href="">about</a>
+				<a href="">portfolio</a>
+				<a href="">blog</a>
+				<a href="">contact</a> 
 				<a class="search" href=""> <i class="fas fa-search"></i> </a>
 			</div>
 		</div>
-</header>
+	</header>
+
+	<div class="menu">
+		<div class="menu-btn">
+			<div class="l1"></div>
+			<div class="l2"></div>
+			<div class="l3"></div>
+		</div>
+		<nav class="menu-list">
+		  <a href="#">home</a>
+		  <a class="active" href="#">about</a>
+		  <a href="#">portfolio</a>
+		  <a href="#">blog</a>
+		  <a href="#">contact</a>
+		</nav>
+	</div>
 
 <!--body-->
 
 <div class="content_contact">
     <div class="heading">
-		<h1>get in touch</h1>
-		<p>contact us today</p>
+		<div class="heading_text">
+			<h1>get in touch</h1>
+			<p>contact us today</p>
+		</div>
     </div>
     <div class="main_content">
         <div class="feedback_form">
@@ -53,8 +70,29 @@
                 <input type="submit" value="send message">
             </form>
         </div>
-        <div id="map"></div>
-    </div>
+        <div id="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d92edc24bd654f619e58ceb2576df410fe213c9c6156d4495c13bf8b00146fb&amp;width=100%25&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script></div>
+		<div class="values_section">
+			<h3>our values</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br /> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis<br /> nostrud exerci tation ullamcorper suscipit.</p>
+		</div>
+		<div class="val_sections">
+			<div class="sec s1">
+				<img src="image/shutterstock_433009291.png">
+				<h3>Who We Are</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+			</div>
+			<div class="sec s2">
+				<img src="image/shutterstock_432828019.png">
+				<h3>our vision</h3>
+				<p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.</p>
+			</div>
+			<div class="sec s3">
+				<img src="image/shutterstock_0353200073.png">
+				<h3>our mission</h3>
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+			</div>
+		</div>
+	</div>
 </div>
 	<!--footer-->
 <footer>	
@@ -74,8 +112,8 @@
 			<p class="copyright">&copy 2016 <span>Mulitix Theme</span> by ThemeForces. All Rights Reserved.</p>
 		</div>
 </footer>
-<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyB1YSjPTLnZkdvdtP_guoHhxGa_KB2njGg"></script>
-<script src="map.js"></script>
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyB1YSjPTLnZkdvdtP_guoHhxGa_KB2njGg"></script>
+<script src="map.js"></script> -->
 </body>
 
 </html>
