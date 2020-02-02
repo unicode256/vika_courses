@@ -1,0 +1,287 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.header {
+	width: 100%;
+	height: 90px;
+	box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+	/* border: 1px solid black; */
+	background-color: #ffffff;
+}
+
+.categories {
+	width: 531px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.05px;
+	word-spacing: 10px;
+	margin: auto;
+	margin-right: 10%;
+	position: relative;
+}
+
+.header a, .navigation a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+	color: #000000;
+	cursor: pointer;
+}
+
+a.active {
+	color: #000000;
+}
+
+
+.img{
+	vertical-align: middle;
+	width: 20px;
+	height: 1px;
+	background-color: #06060a;
+}
+
+.logo{
+	height: 35px;
+	width: 131px;
+	position: relative;
+	left: 10%;
+	top: 28px;
+}
+
+.footer *, .content .load_content, .content {
+	/* border: 1px solid black; */
+}
+
+.footer {
+	padding: 64px 0 47px 0;
+	box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+	z-index: 1;
+	/* box-sizing: content-box; */
+}
+
+.footer img {
+	display: block;
+	margin: 0 auto 44px auto;
+}
+
+.footer .social_networks {
+	padding: 25px 0;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	
+
+}
+
+.footer .social_networks div{
+	width: 700px;
+	margin: auto;
+}
+
+.footer .social_networks a {
+	margin: 0 41px;
+	color: grey;
+}
+
+.footer .social_networks a:last-child {
+	margin-right: 0;
+}
+
+.footer .social_networks a:hover{
+	color: black;
+}
+
+.footer .copyright {
+	margin: 0;
+	padding: 0;
+	color: #9c9c9c;
+	font-family: Roboto, sans-serif;
+	font-size: 13px;
+	font-weight: 412px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 37px;
+	cursor: default;
+}
+
+.footer .copyright span {
+	color: #000;
+}
+
+  .menu {
+	position: fixed;
+	right: 0;top: 0;
+	z-index: 399;
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	transition: 0.5s;
+	transform: translateX(100%);
+	display: none;
+  }
+  .menu_active {
+	transform: translateX(0%);
+  }
+  .menu-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+	flex-direction: column;
+  }
+  .menu-list a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: 'Roboto',sans-serif;
+	color: #777777;
+  }
+
+  .menu-list a:hover {
+	color: #000000;
+	cursor: pointer;
+  }
+
+  .menu-btn {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: -100px;
+	top: 27px;
+  }
+
+.menu-btn .l1, .menu-btn .l2, .menu-btn .l3 {
+	border-top: 3px solid black;
+	margin-top: 14px;
+}
+
+.menu-btn .l1 {
+	margin: 0;
+}
+
+@media screen and (max-width: 1173px) {
+	br {
+		display: none;
+	}
+
+	.categories {
+		display: none;
+	}
+
+	.founders_section {
+		width: 358px;
+	}
+
+	.founders_section .section {
+		margin: 0;
+	}
+
+	.founders_section .section.s2,  .founders_section .section.s3 {
+		margin-top: 74px;
+	}
+	.footer .social_networks div {
+		width: 300px;
+	}
+
+	.footer .social_networks div i{
+		margin-right: -65px;
+	}
+
+	.menu {
+		display: block;
+	}
+
+	.wrapper .slider .next, .wrapper .slider .prev {
+		display: none;
+	}
+
+	.wrapper .slider .slide .slider_content h1 {
+		font-size: 35px;
+		font-weight: 300;
+		letter-spacing: 2.8px;
+		text-align: center;
+		width: 540px;
+		padding: 4px 0 4px 0;		
+	}
+
+	.wrapper .slider .slide .slider_content p {
+		width: 385px;
+		font-size: 16px;
+		font-weight: 300;
+		letter-spacing: 5.2px;
+	}
+
+	.content_contact .heading .heading_text{
+		width: 440px;
+	}
+
+	.content_contact .main_content .feedback_form {
+		width: 95%;
+		margin: auto;
+	}
+
+	.content_contact .main_content .feedback_form .office_info {
+		margin: 0 auto;
+		float: none;
+		margin-bottom: 85px;
+	}
+
+	.content_contact .main_content .feedback_form form {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+
+	.content_contact .main_content .feedback_form form input, .content_contact .main_content .feedback_form form textarea {
+		float: none;
+		width: 100%;
+	}
+
+	.content_contact .main_content .feedback_form form input[type="submit"] {
+		width: 100%;
+	}
+
+	.content_contact .main_content .feedback_form form textarea {
+		margin-top: 30px;
+	}
+
+	.content_contact .values_section br{
+		display: none;
+	}
+
+	.content_contact .values_section {
+		width: 90%;
+		text-align: center;
+	}
+
+	.content_contact .val_sections {
+		width: 354px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.content_contact .val_sections .sec {
+		float: none;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+}

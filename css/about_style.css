@@ -1,0 +1,388 @@
+.content_about, .content_about .heading, .content_about .heading h1, .content_about .heading p, .content_contact .heading h1, .content_contact .heading p {
+	padding: 0;
+	margin: 0;
+}
+
+.content_about {
+	padding-top: 90px;
+}
+
+.content_about .heading .heading_text {
+	width: 1130px;
+	margin: auto;
+}
+
+.content_about .heading h1, .content_contact .heading h1 {
+	width: 590px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Roboto';
+	font-size: 48px;
+	line-height: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 4.8px;
+	background-color: #000;
+	padding: 11px 0px 9px 0px;
+}
+
+.content_about .heading p, .content_contact .heading p {
+	width: 270px;
+	color: #000;
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 7.2px;
+	margin-top: 44px;
+}
+
+.content_about .heading, .content_contact .heading {
+	width: 100%;
+	background: url("../image/shutterstock_415747804.png") rgb(238, 238, 240) no-repeat;
+	background-position: top right;
+	padding-top: 115px;
+	padding-bottom: 122px;
+}
+
+.main_content, .main_content img, .main_content .text_section_1, .main_content .text_section_1 p, .main_content .text_section_1 h3, .main_content .skills, .main_content .skills p {
+	padding: 0;
+	margin: 0;
+}
+
+.content_about .main_content {
+	overflow: auto;
+	padding-top: 72px;
+	background-color: rgb(249, 249, 249);
+	padding-bottom: 76px;
+}
+
+.main_content {
+	background-color: rgb(249, 249, 249);
+}
+
+.story_section {
+	width: 1130px;
+	padding-bottom: 2px;
+	margin: auto;
+	overflow: auto;
+}
+
+.content_about .main_content .text_section_1 {
+	width: 540px;
+	margin-left: 53px;
+}
+
+.content_about .main_content img, .main_content .text_section_1 {
+	display: block;
+	float: left;
+}
+
+.content_about .main_content .text_section_1 {
+	color: #777777;
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.content_about .main_content .text_section_1 h3 {
+	color: #000000;
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 7.2px;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.content_about .main_content .text_section_1 h3 {
+	margin-top: 35px;
+}
+
+.content_about .main_content .text_section_1 h3:first-child {
+	margin-top: 9px;
+}
+
+.content_about .main_content .text_section_1 p {
+	font-family: 'Roboto';
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 32px;
+}
+
+.content_about .main_content .text_section_1 .skills p:first-child {
+	margin-top: 35px;
+}
+
+.content_about .main_content .text_section_1 .skills p {
+	color: #2f302f;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 17px;
+}
+
+.content_about .main_content .level_line {
+	margin-top: 8px;
+	height: 10px;
+	background-color: rgb(232, 232, 232);
+}
+
+.content_about .main_content .level_line .line {
+	height: 2px;
+	margin-top: 4px;
+	margin-left: 3px;
+	box-sizing: border-box;
+	background-color: #a1a1a1;
+	float: left;
+}
+
+.content_about .main_content .level_line .line.l1 {
+	width: 470px;
+}
+
+.content_about .main_content .level_line .line.l2 {
+	width: 495px;
+}
+
+.content_about .main_content .level_line .line.l3 {
+	width: 258px;
+}
+
+.content_about .main_content .level_line .line.l4 {
+	width: 440px;
+}
+
+.content_about .main_content .level_line .point {
+	margin-top: -5px;
+}
+
+.content_about .main_content .level_line .line.l1 .point {
+	margin-left: 470px;
+	margin-top: -5px;
+}
+
+.content_about .main_content .level_line .line.l2 .point {
+	margin-left: 495px;
+	margin-top: -5px;
+}
+
+.content_about .main_content .level_line .line.l3 .point {
+	margin-left: 258px;
+	margin-top: -5px;
+}
+
+.content_about .main_content .level_line .line.l4 .point {
+	margin-left: 440px;
+	margin-top: -5px;
+}
+
+.content_about .main_content .level_line span img {
+	margin: 0;
+}
+
+.content_about .main_content .level_line .tooltip {
+	font-family: 'Lato';
+	width: 40px;
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	bottom: 50px;
+	z-index: 0;
+}
+
+.content_about .main_content .level_line .tooltip .value {
+	width: 40px;
+}
+
+.content_about .main_content .level_line .tooltip .value span {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 3px 9px 3px 9px;
+}
+
+.content_about .main_content .level_line .tooltip .tail {
+	height: 8px;
+	background: url("../image/Rectangle_49.png") bottom left no-repeat;
+}
+
+.content_about .main_content .level_line .line.l1 .tooltip {
+	left: 474px;
+}
+
+.content_about .main_content .level_line .line.l2 .tooltip {
+	left: 499px;
+}
+
+.content_about .main_content .level_line .line.l3 .tooltip {
+	left: 262px;
+
+}
+
+.content_about .main_content .level_line .line.l4 .tooltip {
+	left: 444px;
+}
+
+.content_about .main_content .team_section {
+	margin-top: 100px;
+}
+
+.content_about .main_content .team_section h2, .content_about .main_content .team_section p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.content_about .main_content .team_section h2 {
+	color: #000000;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.content_about .main_content .team_section p {
+	font-family: 'Roboto';
+	font-weight: 400;
+	line-height: 30px;
+	color: #777777;
+	font-size: 14px;
+	margin-top: 35px;
+}
+
+.founders_section {
+	width: 1134px;
+	overflow: auto;
+	margin: auto;
+	margin-top: 67px;
+}
+
+.section {
+	width: 358px;
+	float: left;
+	margin-left: 30px;
+}
+
+.section:first-child {
+	margin: 0;
+}
+
+.founders_section .section {
+	background-color: rgb(236, 235, 235);
+}
+
+.founders_section .section .photo img {
+	float: none;
+}
+
+.founders_section .section.s1 .photo img {
+	margin-top: 15px;
+	margin-left: 53px;
+	
+}
+
+.founders_section .section.s2 .photo img {
+	margin-top: 11px;
+	margin-left: 61px;
+}
+
+.founders_section .section.s3 .photo img {
+	margin-top: 3px;
+	margin-left: 50px;
+}
+
+.founders_section .section .description {
+	background-color: #fff;
+	padding: 35px 43px 31px 35px;
+}
+
+.founders_section .section .description p {
+	margin: 0;
+	padding: 0;
+}
+
+.founders_section .section .description .name {
+	color: #041608;
+	font-family: 'Roboto';
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.founders_section .section .description .position {
+	color: #777777;
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 8px;
+}
+
+.founders_section .section .description .text {
+	font-family: 'Roboto';
+	color: #9c9c9c;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 1173px){
+    .content_about .heading {
+		background: none;
+		background-color: rgb(238, 238, 240);
+	}
+
+	.content_about .heading .heading_text{
+		width: 500px;
+	}
+
+	.content_about .heading .heading_text p {
+		text-align: center;
+		width: 100%;
+	}
+
+	.content_about .heading .heading_text h1 {
+		width: 500px;
+		/* margin: auto; */
+		text-align: center;
+		font-size: 38px;
+		line-height: 26px;
+		font-weight: 300;
+		letter-spacing: 2.8px;
+		padding: 10px 0px 8px 0px;
+
+	}
+
+	.content_about .main_content .story_section > img{
+		display: none;
+	}
+
+	.content_about .main_content .story_section .text_section_1 p {
+		width: 100%;
+	}
+
+	.content_about .main_content .story_section .text_section_1 h3 {
+		text-align: center;
+	}
+
+	.content_about .main_content .story_section {
+		width: 550px;
+		margin: auto;
+	}
+
+	.content_about .main_content .story_section .text_section_1 {
+		margin-left: 0;
+	}
+
+	.content_about .main_content .team_section p {
+		width: 540px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
